@@ -38,7 +38,10 @@ end
 
 def get_first_key(wallets)
 
-  return wallets.keys[0]
+  #return wallets.keys[0]
+
+  first_key = hash.key().first()
+  return first_key
 
 
 end
